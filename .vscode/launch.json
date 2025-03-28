@@ -1,0 +1,77 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"type": "totvs_language_debug",
+			"request": "launch",
+			"name": "TOTVS Language Debug",
+			"program": "${command:AskForProgramName}",
+			"cwb": "${workspaceFolder}",
+			"smartclientBin": "C:/TOTVS/Protheus2310/Protheus/bin/smartclient/smartclient.exe",
+			"isMultiSession": true,
+			"enableTableSync": true,
+			"extendFeatures": {
+				"charDetails": false
+			}
+		}
+	],
+	"lastPrograms": [
+		{
+			"label": "sigafat"
+		},
+		{
+			"args": [],
+			"label": "U_HelloWorld"
+		},
+		{
+			"label": "SIGACFG"
+		},
+		{
+			"label": "SIGAMDI"
+		},
+		{
+			"label": "SIGACOM"
+		},
+		{
+			"args": [],
+			"label": "U_TesteTI"
+		},
+		{
+			"args": [],
+			"label": "U_SetNome"
+		},
+		{
+			"args": [],
+			"label": "U_SRMA"
+		},
+		{
+			"args": [],
+			"label": "U_AxTeste"
+		},
+		{
+			"args": [],
+			"label": "U_Gatilho"
+		},
+		{
+			"args": [],
+			"label": "U_PB01"
+		},
+		{
+			"args": [],
+			"label": "_UHelloWorld"
+		},
+		{
+			"args": [],
+			"label": "U_AXSET"
+		},
+		{
+			"label": "SIGACOM2"
+		},
+		{
+			"args": [],
+			"label": "U_AXCAD"
+		}
+	],
+	"lastProgramExecuted": "SIGACOM",
+	"lastProgramArguments": []
+}
