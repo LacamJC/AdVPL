@@ -7,7 +7,7 @@ User Function AxTeste()
     Local cFunTOk    := ".T."
 
 
-	AxCadastro("JRC", "Produtos - Teste", "Validacao de Exclusao", cDelOk, cFunTOk)
+	AxCadastro("JRD", "Produtos - Teste", "Validacao de Exclusao", cDelOk, cFunTOk)
 
     RestArea(aAreaB1)
     RestArea(aArea)
