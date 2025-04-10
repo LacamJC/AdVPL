@@ -70,6 +70,9 @@
 		{
 			"args": [],
 			"label": "U_AXCAD"
+		},
+		{
+			"label": "APSDU"
 		}
 	],
 	"lastProgramExecuted": "SIGACOM",

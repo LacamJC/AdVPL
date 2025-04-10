@@ -58,6 +58,19 @@ Static Function ViewDef()
 	oView:CreateHorizontalBox('CABEC', 100)
 	oView:setOwnerView('PAI_VIEW', 'CABEC')
 	oView:EnableTitleView('PAI_VIEW', 'Dados do produto')
+
+	oSTPai:AddGroup('GRUPO01', 'Grupo 1 Teste', '', 1)// <= Criando grupo um 
+	oSTPai:AddGroup('GRUPO02', 'Grupo 2 teste', '', 2)
+
+	oSTPai:SetProperty('B1_COD', MVC_VIEW_GROUP_NUMBER, 'GRUPO01')
+	oSTPai:SetProperty('B1_DESC', MVC_VIEW_GROUP_NUMBER, 'GRUPO01')
+	oSTPai:SetProperty('B1_TIPO', MVC_VIEW_GROUP_NUMBER, 'GRUPO01')
+
+	oSTPai:SetProperty('B1_LOCPAD', MVC_VIEW_GROUP_NUMBER, 'GRUPO02')
+	oSTPai:SetProperty('B1_GRUPO', MVC_VIEW_GROUP_NUMBER, 'GRUPO02')
+	oSTPai:SetProperty('B1_PRV1', MVC_VIEW_GROUP_NUMBER, 'GRUPO02')
+
+
 	oView:SetCloseOnOk({|| .T.})
 
 
